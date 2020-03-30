@@ -17,11 +17,15 @@ $(document).ready(function() {
     brandNewarray.push(result[1]);
     brandNewarray.push(result[0]);
     brandNewarray.push(result[2]);
-    console.log(brandNewarray)
-    $("#output").text(result);
+    //console.log(brandNewarray)
+    $("ul li#list1").text(result[1]);
+    $("ul li#list2").text(result[0]);
+    $("ul li#list3").text(result[2]);
 
-    // result.pop();
-    // console.log(result);
 
+    //console.log("ul li")
+   // $("#output").text(brandNewarray);
+
+   
   });
 });
